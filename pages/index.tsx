@@ -77,7 +77,7 @@ export default function Home() {
       console.error("Mint Error", error);
       enqueueSnackbar("Mint Error: Check console logs for more details", {
         variant: "error",
-        anchorOrigin: { vertical: "top", horizontal: "right" },
+        anchorOrigin: { vertical: "top", horizontal: "center" },
       });
     }
   };
@@ -100,7 +100,7 @@ export default function Home() {
         "Fetching CM Error: Check console logs for more details",
         {
           variant: "error",
-          anchorOrigin: { vertical: "top", horizontal: "right" },
+          anchorOrigin: { vertical: "top", horizontal: "center" },
         }
       );
     }
@@ -185,8 +185,7 @@ export default function Home() {
               }}
             >
               <p style={{ color: "grey" }}>
-                Bonkaplex is a selection of 69 images showcasing what Midjourney
-                thinks of the word “bonk”. All $BONK raised will be burned.
+                Tree.NFT is a pilot program launched to test our new RWA NFT framework and backend. Each NFT represents a coffee tree that will be planted by March 31, 2023. Buy purchasing this NFT, you are becoming a member of the coffee farm collective. Your membership comes with a benefit of receiving 20% of the wealth generated from your tree. A typical coffee tree will start producing on its third year. After this initial period, you can expect an average of 2 pounds of coffee from each tree. With a tree price of $7.00, this model is highly generative over the years.
               </p>
             </Box>
             <h2
@@ -290,7 +289,7 @@ const NftModal: React.FC<ModalProps> = ({
           ) : null}
         </Box>
         <DialogTitle>
-          {isFetching ? "Bonking..." : "You've been bonked, enjoy your NFT!"}
+          {isFetching ? "Looking in the nursery..." : "Your tree has been selected!"}
         </DialogTitle>
         {isFetching ? (
           <DialogContent>
@@ -304,7 +303,7 @@ const NftModal: React.FC<ModalProps> = ({
                 maxWidth: "520px",
                 maxHeight: "520px",
               }}
-              src={process.env["NEXT_PUBLIC_COLLECTION_IMAGE"]}
+              src={process.env["https://bafybeigi3mxyvtmupiz2izwbg45fisrv6ues4sgp4jv2y2qbvaefwhream.ipfs.nftstorage.link/0.png"]}
               alt="NFT"
             />
             Which one will you get?
