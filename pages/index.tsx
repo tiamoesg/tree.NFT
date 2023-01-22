@@ -145,7 +145,7 @@ export default function Home() {
               width: "100%",
               justifySelf: isDesktop ? "flex-start" : "center",
             }}
-            src="https://bonk-smick.s3.us-east-2.amazonaws.com/bonkagrid.png"
+            src="https://bafybeie4jyy7v4ts4r3ejbowlz2e57tdtw7bam2kdeysg5eeop2emm3nvi.ipfs.nftstorage.link/0.png"
             alt="NFT"
           />
           <p
