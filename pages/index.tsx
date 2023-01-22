@@ -38,8 +38,8 @@ export default function Home() {
   const { enqueueSnackbar } = useSnackbar();
 
   const isDesktop = useMediaQuery("(min-width: 1200px)");
-  const CM_ID = "5hbBGAP6pgwLKVpQVvwZKR4B1VV8zchHTqggCQBgVCpT";
-  const CM_NAME = "Bonkaplex";
+  const CM_ID = "9tmPqCgkUzxRHoEB4ABzLpLeE2DeaezyrmjYVDJrDUsQ";
+  const CM_NAME = "Tree.NFT";
 
   const handleClose = () => {
     setIsModalOpen(false);
