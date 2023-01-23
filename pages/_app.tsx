@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <CssBaseline />
       <SnackbarProvider>
-        <ConnectionProvider endpoint={clusterApiUrl('https://rpc.helius.xyz/?api-key=736449d8-6178-4324-9ef8-96224a4410c4')}>
+        <ConnectionProvider endpoint={"https://rpc.helius.xyz/?api-key=736449d8-6178-4324-9ef8-96224a4410c4"}>
           <WalletProvider wallets={wallets} autoConnect>
             <WalletModalProvider>
               <Component {...pageProps} />
