@@ -125,7 +125,7 @@ export default function Home() {
     <PageWrapper
               style={{
               maxWidth: "100vh",
-              height: "12000px",
+              height: "1200px",
               width: "100%",
       }}>
       {isDesktop ? (
