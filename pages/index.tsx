@@ -148,7 +148,7 @@ export default function Home() {
               width: "100%",
               justifySelf: isDesktop ? "flex-start" : "center",
             }}
-            src="https://bafybeigi3mxyvtmupiz2izwbg45fisrv6ues4sgp4jv2y2qbvaefwhream.ipfs.nftstorage.link/0.png"
+            src="https://bafybeiafulz66ifjhdijvqm4d67ymd4o2czxppp4nsidj7sh32avn24kna.ipfs.nftstorage.link/6784.png"
             alt="NFT"
           />
           <p
@@ -313,7 +313,7 @@ const NftModal: React.FC<ModalProps> = ({
                 maxWidth: "520px",
                 maxHeight: "520px",
               }}
-              src={process.env["https://bafybeigi3mxyvtmupiz2izwbg45fisrv6ues4sgp4jv2y2qbvaefwhream.ipfs.nftstorage.link/0.png"]}
+              src={process.env["https://bafybeiafulz66ifjhdijvqm4d67ymd4o2czxppp4nsidj7sh32avn24kna.ipfs.nftstorage.link/6784.png"]}
               alt="NFT"
             />
             Which one will you get?
