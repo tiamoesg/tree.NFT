@@ -124,16 +124,12 @@ export default function Home() {
   return (
     <PageWrapper
               style={{
-              maxWidth: "100vh",
               height: "1444px",
       }}>
       {isDesktop ? (
         <TopBar>
           <WalletMultiButton style={{ background: "black", color: "white" }} />
-        </TopBar> style={{
-              maxWidth: "100vh",
-              height: "1444px",
-      }}
+        </TopBar>
       ) : null}
       <MainBody>
         <NftModal
