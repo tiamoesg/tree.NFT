@@ -126,12 +126,14 @@ export default function Home() {
               style={{
               maxWidth: "100vh",
               height: "1444px",
-              width: "100%",
       }}>
       {isDesktop ? (
         <TopBar>
           <WalletMultiButton style={{ background: "black", color: "white" }} />
-        </TopBar>
+        </TopBar> style={{
+              maxWidth: "100vh",
+              height: "1444px",
+      }}
       ) : null}
       <MainBody>
         <NftModal
