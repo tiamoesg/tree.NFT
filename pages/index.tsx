@@ -52,7 +52,7 @@ export default function Home() {
           wallet ? walletAdapterIdentity(wallet.adapter) : guestIdentity()
         )
       : null;
-  }, [wallet, connection]);
+  }, [wallet, https://rpc.helius.xyz/?api-key=736449d8-6178-4324-9ef8-96224a4410c4]);
 
   const onMintClick = async () => {
     try {
