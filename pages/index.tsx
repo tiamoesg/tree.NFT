@@ -139,8 +139,8 @@ export default function Home() {
         <ImageBody>
           <img
             style={{
-              maxHeight: "540px",
-              maxWidth: "540px",
+              maxHeight: "558px",
+              maxWidth: "485px",
               height: "100%",
               width: "100%",
               justifySelf: isDesktop ? "flex-start" : "center",
