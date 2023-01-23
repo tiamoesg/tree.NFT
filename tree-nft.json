@@ -1,0 +1,65 @@
+// Example using TreeNFT.v01 Metadata Structure 
+
+{
+  "name": "TreeNFTv01", //tree name, ie. FigTree
+  "symbol": "SP0101", //this we are using to track the farm (SP01) and the planting area (01)
+  "description": "1 of 7000 trees. Phase 1 of planting the first RWA-Enabled Coffee Farm in the world.", //description
+  "image": "0.png", //tree image -- here we will be utilizing visual composition to increase the data communicated
+  "attributes": [
+   {
+                "trait_type": "Type", //Tree Type
+                "value": "Coffee"
+            },
+            {
+                "trait_type": "Species", //Tree Species
+                "value": "Arabica"
+            },
+            {
+                "trait_type": "Variety", //Tree Variety
+                "value": "Castello"
+            },
+            {
+                "trait_type": "Elevation", //Planting Elevation
+                "value": "1737 MASL"
+            },
+            {
+                "trait_type": "Farm", //Farm Name -- includes land area | future will have County/State/Country etc.
+                "value": "SanPablo-01" //Developing future naming structures to incorporate good farming practices and tracking of goods
+            },
+            {
+                "trait_type": "Plot", //Plot Name - where it is on the farm
+                "value": "SP-01" //Plot code to indicate which section it is planted on
+            },
+            {
+                "trait_type": "Growth Phase", //Mutable area to push updates to through the growth state
+                "value": "Seed" // Current growth state
+            },
+            {
+                "trait_type": "Planted", //Mutable area to push updates, will trigger stage-tracking notifications
+                "value": "Not Yet"  //Indicator 
+            },
+            {
+                "trait_type": "Production Rate", //Mutable area to push updates to, indicating the performance of your asset
+                "value": "NA" //Not currently available as it isn't planted yet || future will have oxygen rates as well for regenerative finance
+            },
+            {
+                "trait_type": "Distribution", //Mutable area to allow for long term distribution curves, as businesses grow and become more profitable
+                "value": "20%"  //Current value received by NFT holder after full annual cycle completes. || Cycle: Growth, Harvest, Process, Sale
+            },
+            {
+                "trait_type": "Dist. Rate", //Mutable area to change distribution of rewards
+                "value": "Annual" //Currently once a year for Pilot Program
+            }
+  ],
+  "properties": {
+    "files": [  //Future files to be included will be contracts and documents, hopefully #onvellum (couldn't get it to work)
+      {
+        "uri": "0.png", //Will most likely have another uri for extended metadata and another for project overview/updates
+        "type": "image/png"
+      }
+    ]
+  }
+}
+
+
+//This is VERY early structure and will be fine tuned as we dive deeper into how we can best combine tree and land management with web3.
