@@ -185,7 +185,7 @@ export default function Home() {
               }}
             >
               <p style={{ color: "grey" }}>
-                Tree.NFT is a pilot program launched to test our new RWA NFT framework and backend. Each NFT represents a coffee tree that will be planted by March 31, 2023. Buy purchasing this NFT, you are becoming a member of the coffee farm collective. Your membership comes with a benefit of receiving 20% of the wealth generated from your tree. A typical coffee tree will start producing on its third year. After this initial period, you can expect an average of 2 pounds of coffee from each tree. With a tree price of $7.00, this model is highly generative over the years.
+                Tree.NFT is a pilot program launched to test our new RWA NFT framework and backend. </p> <p> Each NFT represents a coffee tree that will be planted by March 31, 2023. Buy purchasing this NFT, you are becoming a member of the coffee farm collective. Your membership comes with a benefit of receiving 20% of the wealth generated from your tree. A typical coffee tree will start producing on its third year. After this initial period, you can expect an average of 2 pounds of coffee from each tree. With a tree price of $7.00, this model is highly generative over the years.
               </p>
             </Box>
             <h2
