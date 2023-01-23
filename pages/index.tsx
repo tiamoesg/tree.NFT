@@ -124,7 +124,7 @@ export default function Home() {
   return (
     <PageWrapper
               style={{
-              maxHeight: "12000",
+              maxHeight: "12000px",
               maxWidth: "100vh",
               height: "100%",
               width: "100%",
