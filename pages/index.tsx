@@ -124,12 +124,10 @@ export default function Home() {
   return (
     <PageWrapper
               style={{
-              maxHeight: "12000px",
               maxWidth: "100vh",
-              height: "100%",
+              height: "12000px",
               width: "100%",
-              justifySelf: isDesktop ? "flex-start" : "center",
-            }}>
+      }}>
       {isDesktop ? (
         <TopBar>
           <WalletMultiButton style={{ background: "black", color: "white" }} />
