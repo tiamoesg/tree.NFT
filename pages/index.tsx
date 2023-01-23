@@ -145,7 +145,7 @@ export default function Home() {
               width: "100%",
               justifySelf: isDesktop ? "flex-start" : "center",
             }}
-            src="https://bafybeie4jyy7v4ts4r3ejbowlz2e57tdtw7bam2kdeysg5eeop2emm3nvi.ipfs.nftstorage.link/0.png"
+            src="https://bafybeigi3mxyvtmupiz2izwbg45fisrv6ues4sgp4jv2y2qbvaefwhream.ipfs.nftstorage.link/0.png"
             alt="NFT"
           />
           <p
