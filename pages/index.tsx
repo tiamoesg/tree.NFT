@@ -122,7 +122,14 @@ export default function Home() {
   }, [candyMachine]);
 
   return (
-    <PageWrapper>
+    <PageWrapper
+              style={{
+              maxHeight: "12000",
+              maxWidth: "100vh",
+              height: "100%",
+              width: "100%",
+              justifySelf: isDesktop ? "flex-start" : "center",
+            }}>
       {isDesktop ? (
         <TopBar>
           <WalletMultiButton style={{ background: "black", color: "white" }} />
