@@ -337,7 +337,6 @@ const NftModal: React.FC<ModalProps> = ({
 };
 
 const PageWrapper = styled(Box)(({ theme }) => ({
-  height: "100vh",
   width: "100vw",
   background: "white",
   display: "flex",
@@ -346,6 +345,8 @@ const PageWrapper = styled(Box)(({ theme }) => ({
   marginTop: "16px",
   [theme.breakpoints.up("lg")]: {
     overflow: "auto",
+    min-height: 
+    -webkit-fill-available;
   },
 }));
 
