@@ -1,5 +1,5 @@
-# RWAdrops + Frameworks
-The home of RWAdrops and the Tree.NFT framework.
+# Tree.NFT Framework
+The home of the Tree.NFT framework. - Currently in v.01
 
 # Tree.NFT Framework
 1. A public good NFT framework for turning trees into RWAs. 
@@ -10,16 +10,21 @@ The home of RWAdrops and the Tree.NFT framework.
 1. Next.JS storefront for launching RWAs to the public via fiat on-ramps. Link to temp CMV3 UI >> [First Test - CM Error](https://trees-nft.vercel.app/) |  [Code](https://github.com/tiamoesg/trees.NFT/tree/main/pages) -- and here is where our future development will start with Next.JS [Ground Up Build](https://github.com/tiamoesg/RWAdrops.store)
 2. Tree.NFTv01 Structure + Attribute Development [Current Structure Example](https://github.com/tiamoesg/trees.NFT/blob/main/tree-nft.json) 
 
-# Candy machine setup
-1. Download sugar's latest [build](https://github.com/metaplex-foundation/sugar/tree/alpha+CMv3)
-2. Create a candy machine with the tokenPayment guard. Set the mint to the token mint address and the destination ata to the account of your treasury wallet which will hold the token.
-3. Deploy the CM and add the guard. Copy the CM address.
+# Future Development -- Tree.NFT
+1. Getting Tree.NFT structure to v1 >>
+2. Identifying most necessary and valuable attributes
+3. Creating templates for multiple tree types
+4. Adding calculations for production averages, ROIs, and oxygen creation. 
 
-# Web app setup
-1. ```yarn``` and then ```yarn dev```
-2. edit the env to add your CM and the image you want displayed on the site.
-3. To change the minting animation, create your own gif of your images.
+# Future Development -- Communication and Partnerships
+1. Creating material to communicate the framework and how to use it.
+2. Providing access to tools and education necessary in order to effectively create campaigns and utilize RWAs
+3. Align with other organizations and projects around the world in order to implement more traceability and integrity into the Climate Change and Regenerative Finance sectors.
 
-Shoutout to @urbentom for the original skeleton.
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Future Development -- RWAdrops
+1. Launching first tree RWA NFT project. CMv3 is already loaded with 7000 trees [Collection on Solscan](https://solscan.io/token/AiFeb2oxur5Kd625kDmvC86mQuet76Yazxwp7GnB24af)
+2. Attemped with templates for CMv3, couldn't succeed. 
+3. Tried with Crossmint, error when trying to buy credits for production.
+4. Attemped withpaper.com, didn't provide.
+5. Can get everything to function on devnet.... but not mainnet.
+6. Need some help on moving to the next step.
