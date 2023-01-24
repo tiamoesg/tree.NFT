@@ -25,8 +25,8 @@ The home of the Tree.NFT framework. - [Currently in v.01](https://github.com/tia
 3. Align with other organizations and projects around the world in order to implement more traceability and integrity into the Climate Change and Regenerative Finance sectors.
 
 # Future Development -- RWAdrops
-1. Launching first tree RWA NFT project. CMv3 is already loaded with 7000 trees [Collection on Solscan](https://solscan.io/token/AiFeb2oxur5Kd625kDmvC86mQuet76Yazxwp7GnB24af)
-2. Attemped with templates for CMv3, couldn't succeed. 
+1. Launching first tree RWA NFT project on our partner farm in Colombia. -- CMv3 is already loaded with 7000 trees [Collection on Solscan](https://solscan.io/token/AiFeb2oxur5Kd625kDmvC86mQuet76Yazxwp7GnB24af)
+2. Attemped to launch to production with templates for CMv3, couldn't succeed. 
 3. Tried with Crossmint, error when trying to buy credits for production.
 4. Attemped withpaper.com, didn't provide.
 5. Can get everything to function on devnet.... but not mainnet.
