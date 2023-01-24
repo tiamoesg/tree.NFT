@@ -1,5 +1,5 @@
 # Tree.NFT Framework
-The home of the Tree.NFT framework. - Currently in v.01
+The home of the Tree.NFT framework. - [Currently in v.01](https://github.com/tiamoesg/trees.NFT/blob/main/tree-nft.json)
 
 # Tree.NFT Framework
 1. A public good NFT framework for turning trees into RWAs. 
