@@ -1,4 +1,4 @@
-# Intro
+# RWAdrops + Frameworks
 The home of RWAdrops and the Tree.NFT framework.
 
 # Tree.NFT Framework
@@ -7,8 +7,8 @@ The home of RWAdrops and the Tree.NFT framework.
 3. To create easily scalable decentralized projects of conservation, reforestation, and production.
 
 # Current Development
-1. Next.JS storefront for launching RWAs to the public via fiat on-ramps.
-2. 
+1. Next.JS storefront for launching RWAs to the public via fiat on-ramps. [First Test - CM Error](https://trees-nft.vercel.app/) -- [Code](https://github.com/tiamoesg/trees.NFT/tree/main/pages) -- [Ground Up Build](https://github.com/tiamoesg/RWAdrops.store)
+2. Tree.NFTv01 Structure + Attribute Development [Current Structure Example](https://github.com/tiamoesg/trees.NFT/blob/main/tree-nft.json) 
 
 # Candy machine setup
 1. Download sugar's latest [build](https://github.com/metaplex-foundation/sugar/tree/alpha+CMv3)
