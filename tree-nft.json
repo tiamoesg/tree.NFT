@@ -1,4 +1,5 @@
-// Example using TreeNFT.v01 Metadata Structure 
+// Example using TreeNFT.v01 Metadata Structure
+//Remove all comments to use.
 
 {
   "name": "TreeNFTv01", //tree name, ie. FigTree
