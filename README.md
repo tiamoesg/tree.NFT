@@ -2,12 +2,12 @@
 The home of RWAdrops and the Tree.NFT framework.
 
 # Tree.NFT Framework
-1. A public good NFT framework for turning trees in RWAs. 
+1. A public good NFT framework for turning trees into RWAs. 
 2. To allow regenerative finance to move forward into its next stage of IRL implementation.
 3. To create easily scalable decentralized projects of conservation, reforestation, and production.
 
 # Current Development
-1. Next.JS storefront for launching RWAs to the public via fiat on-ramps. [First Test - CM Error](https://trees-nft.vercel.app/) -- [Code](https://github.com/tiamoesg/trees.NFT/tree/main/pages) -- [Ground Up Build](https://github.com/tiamoesg/RWAdrops.store)
+1. Next.JS storefront for launching RWAs to the public via fiat on-ramps. Link to temp CMV3 UI >> [First Test - CM Error](https://trees-nft.vercel.app/) |  [Code](https://github.com/tiamoesg/trees.NFT/tree/main/pages) -- and here is where our future development will start with Next.JS [Ground Up Build](https://github.com/tiamoesg/RWAdrops.store)
 2. Tree.NFTv01 Structure + Attribute Development [Current Structure Example](https://github.com/tiamoesg/trees.NFT/blob/main/tree-nft.json) 
 
 # Candy machine setup
