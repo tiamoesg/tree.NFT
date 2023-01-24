@@ -162,7 +162,7 @@ export default function Home() {
               marginBlockEnd: "0px",
             }}
           >
-            {itemsRemaining} available
+            7000 available
           </p>
         </ImageBody>
 
@@ -207,7 +207,7 @@ export default function Home() {
                 fontSize: "24px",
               }}
             >
-              <>6,000,000 $BONK per NFT</>
+              <>$7.00 USDC per NFT</>
             </h2>
             <MintContainer>
               {publicKey ? (
