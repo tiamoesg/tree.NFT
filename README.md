@@ -1,4 +1,7 @@
 # Tree.NFT Framework
+
+<img src=https://bafybeiafulz66ifjhdijvqm4d67ymd4o2czxppp4nsidj7sh32avn24kna.ipfs.nftstorage.link/6784.png alt="Image of Tree NFT" height="240px" width="200px">
+
 The home of the Tree.NFT framework. - [Currently in v.01](https://github.com/tiamoesg/trees.NFT/blob/main/tree-nft.json)
 
 # Tree.NFT Framework
