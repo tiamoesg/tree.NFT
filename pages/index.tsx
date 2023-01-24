@@ -207,7 +207,7 @@ export default function Home() {
                 fontSize: "24px",
               }}
             >
-              <>{price.toLocaleString()} $BONK per NFT</>
+              <>6,000,000 $BONK per NFT</>
             </h2>
             <MintContainer>
               {publicKey ? (
@@ -238,20 +238,6 @@ export default function Home() {
                     height: "64px",
                   }}
                 />
-              )}
-              {candyMachine?.candyGuard?.guards.mintLimit?.limit && (
-                <h3
-                  style={{
-                    color: "black",
-                    textAlign: "center",
-                    fontSize: "16px",
-                    textTransform: "none",
-                    fontWeight: 400,
-                    marginBlockEnd: "0px",
-                  }}
-                >
-                  {candyMachine?.candyGuard?.guards.mintLimit?.limit} per wallet
-                </h3>
               )}
             </MintContainer>
           </HeroTitleContainer>
