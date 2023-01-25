@@ -23,6 +23,19 @@ import {
   walletAdapterIdentity,
 } from "@metaplex-foundation/js";
 
+import { CrossmintPayButton } from "@crossmint/client-sdk-react-ui";
+
+export default function Mint() {
+    return (
+        <div>
+            <CrossmintPayButton    
+                clientId="_YOUR_CLIENT_ID"
+                className="xmint-btn"
+            />
+        </div>
+    );
+}
+
 export default function Home() {
   const [pageLoading, setPageLoading] = useState<boolean>(true);
   const [candyMachine, setCandyMachine] = useState<CandyMachine | undefined>();
