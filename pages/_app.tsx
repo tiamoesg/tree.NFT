@@ -28,7 +28,7 @@ const darkTheme = createTheme({
 export default function App({ Component, pageProps }: AppProps) {
   const network = process.env["NEXT_PUBLIC_SOLANA_NETWORK"]
     ? (process.env["NEXT_PUBLIC_SOLANA_NETWORK"] as WalletAdapterNetwork)
-    : ("mainnet-beta" as WalletAdapterNetwork);
+    : ("mainnet" as WalletAdapterNetwork);
   const wallets = useMemo(
     () => [
       new PhantomWalletAdapter(),
