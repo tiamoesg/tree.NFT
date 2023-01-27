@@ -19,12 +19,13 @@
     justify-content: center;
 align-items: center;
 flex-direction: column;
-  height: 360px;
-  width: 260px;
+  min-height: fit-content;
+  min-width: fit-content;
   background-color: rgb(65, 161, 105);
   border-radius: 15px;
   box-shadow: 10px 10px 5px black;
 }
+
 
 .NFT-contents {
 justify-content: center;
@@ -32,14 +33,32 @@ align-items: center;
 flex-direction: column;
 }
 
+.NFT-description {
+    background-color: azure;
+    padding: 5px;
+    margin: 20px;    
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .NFT-image {
-    padding-bottom: 15px;
+    display: flex;
+    padding: 25px;
+    padding-bottom: 0px;
+    padding-top:0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .NFT-button {
     display: flex;
     justify-content: center;
-
+    padding: 20px;
+    padding-bottom: 30pxs;
 }
 
 p {
@@ -70,27 +89,29 @@ crossmint-pay-button {
             <p>@NFTfpg || @RWAdrops || @tiamoesg</p>
             <div class="page">
                 
-                <div class="NFT-container">
-                
-                    <div class="NFT-contents">
+                    <div class="NFT-container">
+                        <h1>Tree.NFT</h1>
+                    
+                        <div class="NFT-contents">
 
-                        <div class="NFT-image">
-                            <img src="treenft.png" height="250" width="220"/>
-                        </div>
-                        <div class="NFT-button">
-                            <crossmint-pay-button
-                            clientId="d7f929d1-2d07-437d-9b25-7ca3add1fa5f"
-                            environment="production"
-                            mintConfig='{
-                            "type": "candy-machine",
-                            }'
-                            />
+                            <div class="NFT-image">
+                                <img src="treenft.png" height="250" width="220"/>
+                            </div>
+                            <div class="NFT-description">
+                                <img src="description.png" height="551" width="220"/>
+                            <div class="NFT-button">
+                                <crossmint-pay-button
+                                clientId="d7f929d1-2d07-437d-9b25-7ca3add1fa5f"
+                                environment="production"
+                                mintConfig='{
+                                "type": "candy-machine",
+                                }'
+                                />
+                            </div>
                         </div>
                     </div>
-                </div>
+                
             </div>
-            <p>#sandstormhackathon 2023</p>
-
         </body>
 
         
